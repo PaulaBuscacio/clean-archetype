@@ -5,7 +5,7 @@ import net.buscacio.clean_archetype.infrastructure.repository.NoteDataRepository
 import net.buscacio.clean_archetype.infrastructure.repositoryImpl.NoteDataRepositoryImpl;
 import net.buscacio.clean_archetype.usecases.CreateNoteUseCase;
 import net.buscacio.clean_archetype.usecases.RetrieveNoteUseCase;
-import net.buscacio.clean_archetype.usecases.mapper.NoteMapper;
+import net.buscacio.clean_archetype.infrastructure.mapper.NoteMapperImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -17,8 +17,8 @@ public class InfraConfig {
     }
 
     @Bean
-    public NoteMapper noteMapper(){
-        return new NoteMapper();
+    public NoteMapperImpl noteMapper(){
+        return new NoteMapperImpl();
     }
 
     @Bean
