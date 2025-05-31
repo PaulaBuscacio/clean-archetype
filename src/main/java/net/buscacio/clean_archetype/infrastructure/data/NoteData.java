@@ -6,6 +6,7 @@ import lombok.Data;
 @AllArgsConstructor
 @Data
 public class NoteData {
+
     private Long id;
     private String title;
     private String content;

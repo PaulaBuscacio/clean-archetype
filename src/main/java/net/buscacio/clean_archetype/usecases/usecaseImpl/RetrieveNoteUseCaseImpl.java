@@ -3,16 +3,16 @@ package net.buscacio.clean_archetype.usecases.usecaseImpl;
 import net.buscacio.clean_archetype.app.dto.NoteResponseDto;
 import net.buscacio.clean_archetype.infrastructure.repository.NoteDataRepository;
 import net.buscacio.clean_archetype.usecases.RetrieveNoteUseCase;
-import net.buscacio.clean_archetype.usecases.mapper.NoteMapper;
+import net.buscacio.clean_archetype.infrastructure.mapper.NoteMapperImpl;
 
 import java.util.List;
 
 public class RetrieveNoteUseCaseImpl implements RetrieveNoteUseCase {
 
     private final NoteDataRepository noteDataRepository;
-    private final NoteMapper mapper;
+    private final NoteMapperImpl mapper;
 
-    public RetrieveNoteUseCaseImpl(NoteDataRepository noteDataRepository, NoteMapper mapper) {
+    public RetrieveNoteUseCaseImpl(NoteDataRepository noteDataRepository, NoteMapperImpl mapper) {
         this.noteDataRepository = noteDataRepository;
         this.mapper = mapper;
     }

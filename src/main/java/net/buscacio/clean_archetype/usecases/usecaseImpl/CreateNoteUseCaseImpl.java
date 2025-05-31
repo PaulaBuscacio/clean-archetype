@@ -5,16 +5,16 @@ import net.buscacio.clean_archetype.app.dto.NoteResponseDto;
 import net.buscacio.clean_archetype.domain.entity.Note;
 import net.buscacio.clean_archetype.infrastructure.repository.NoteDataRepository;
 import net.buscacio.clean_archetype.usecases.CreateNoteUseCase;
-import net.buscacio.clean_archetype.usecases.mapper.NoteMapper;
+import net.buscacio.clean_archetype.infrastructure.mapper.NoteMapperImpl;
 import org.springframework.stereotype.Service;
 
 @Service
 public class CreateNoteUseCaseImpl implements CreateNoteUseCase {
 
     private final NoteDataRepository noteDataRepository;
-    private final NoteMapper mapper;
+    private final NoteMapperImpl mapper;
 
-    public CreateNoteUseCaseImpl(NoteDataRepository noteDataRepository, NoteMapper mapper) {
+    public CreateNoteUseCaseImpl(NoteDataRepository noteDataRepository, NoteMapperImpl mapper) {
         this.noteDataRepository = noteDataRepository;
         this.mapper = mapper;
     }
