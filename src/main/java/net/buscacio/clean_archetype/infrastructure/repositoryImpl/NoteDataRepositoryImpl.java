@@ -1,8 +1,8 @@
 package net.buscacio.clean_archetype.infrastructure.repositoryImpl;
 
 import net.buscacio.clean_archetype.infrastructure.data.NoteData;
-import net.buscacio.clean_archetype.infrastructure.repository.NoteDataRepository;
-import org.springframework.data.jpa.repository.JpaRepository;
+import net.buscacio.clean_archetype.usecases.repository.NoteDataRepository;
+
 
 import java.util.ArrayList;
 import java.util.List;

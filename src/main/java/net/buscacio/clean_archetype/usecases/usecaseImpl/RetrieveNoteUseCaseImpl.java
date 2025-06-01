@@ -1,7 +1,7 @@
 package net.buscacio.clean_archetype.usecases.usecaseImpl;
 
 import net.buscacio.clean_archetype.app.dto.NoteResponseDto;
-import net.buscacio.clean_archetype.infrastructure.repository.NoteDataRepository;
+import net.buscacio.clean_archetype.usecases.repository.NoteDataRepository;
 import net.buscacio.clean_archetype.usecases.RetrieveNoteUseCase;
 import net.buscacio.clean_archetype.infrastructure.mapper.NoteMapperImpl;
 

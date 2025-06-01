@@ -1,4 +1,4 @@
-package net.buscacio.clean_archetype.infrastructure.repository;
+package net.buscacio.clean_archetype.usecases.repository;
 
 import net.buscacio.clean_archetype.infrastructure.data.NoteData;
 

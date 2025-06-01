@@ -3,7 +3,7 @@ package net.buscacio.clean_archetype.usecases.usecaseImpl;
 import net.buscacio.clean_archetype.app.dto.NoteRequestDto;
 import net.buscacio.clean_archetype.app.dto.NoteResponseDto;
 import net.buscacio.clean_archetype.domain.entity.Note;
-import net.buscacio.clean_archetype.infrastructure.repository.NoteDataRepository;
+import net.buscacio.clean_archetype.usecases.repository.NoteDataRepository;
 import net.buscacio.clean_archetype.usecases.CreateNoteUseCase;
 import net.buscacio.clean_archetype.infrastructure.mapper.NoteMapperImpl;
 import org.springframework.stereotype.Service;
