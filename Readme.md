@@ -8,6 +8,7 @@
 ```
 \---clean_archetype
     |   CleanArchetypeApplication.java
+    |   Readme.md
     |
     +---app
     |   |   Readme.md
@@ -39,9 +40,6 @@
     |   +---mapper
     |   |       Readme.md
     |   |
-    |   +---repository
-    |   |       Readme.md
-    |   |
     |   \---repositoryImpl
     |           Readme.md
     |
@@ -51,8 +49,12 @@
         +---mapper
         |       Readme.md
         |
+        +---repository
+        |       Readme.md
+        |
         \---usecaseImpl
-                Readme.md                
+                Readme.md
+             
 ```
 
 ### Especificações

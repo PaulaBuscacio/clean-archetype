@@ -1,14 +1,3 @@
-server:
-  port: 8080
-  servlet:
-    context-path: /clean-archetype
-spring:
-  application:
-    name: clean-archetype
-    datasource:
-      url: jdbc:h2:localhost/clean_archetype
-      username: root
-      password: root
-      driver-class-name: com.h2.Driver
+
 
 
