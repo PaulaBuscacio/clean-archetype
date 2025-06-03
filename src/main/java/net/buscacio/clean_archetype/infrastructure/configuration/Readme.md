@@ -13,16 +13,6 @@ public class BeanConfig {
     public ExampleController exampleController(RequestExampleUseCase requestExampleUseCase) {
         return new ExampleController(requestExampleUseCase);
     }
-
-    @Bean
-    public ExampleRepository exampleRepository(ExampleRepository exampleRepository) {
-        return new ExampleRepositoryImpl(exampleRepository);
-    }
-
-    @Bean
-    public ExampleMapper exampleMapper() {
-        return new ExampleMapperImpl();
-    }
     
     @Bean
     public RequestExampleUseCase requestExampleUseCase(ExampleRepository exampleRepository, ExampleMapper exampleMapper) {
